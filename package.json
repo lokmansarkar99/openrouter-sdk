@@ -1,0 +1,21 @@
+{
+  "name": "openrouter-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api.js && node openrouter.ts",
+    "check": "node --check openrouter.ts",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@openrouter/sdk": "^1.4.14"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3"
+  }
+}
